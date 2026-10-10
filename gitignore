@@ -1,0 +1,24 @@
+# Secrets - never commit these
+.env
+.streamlit/secrets.toml
+
+# Local virtual environment (specific to your computer)
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Your local data: favorites, watchlist, ratings and reviews stay private
+*.db
+*.db-journal
+
+# Cached TMDB responses (rebuilt automatically)
+tmdb_cache/
+
+# Editor and OS files
+.vscode/
+.DS_Store
+Thumbs.db
